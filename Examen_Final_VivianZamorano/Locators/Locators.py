@@ -1,0 +1,80 @@
+class MyLocators():
+    Driver_Path = "/home/vivianzamorano/Desktop/Examen_Vivian Zamorano/WebDrivers/chromedriver"
+    URL = "https://industriamaquiladora.com/index.php"
+
+    xPath_Popup = "/html/body/div[4]/div/div/div[1]/button"
+    xPath_Directorio = "/html/body/section[1]/nav/div[2]/div[2]/ul/li[5]/a"
+    linkText_Proveedores = "PROVEEDORES"
+    xPath_Prov_Abrasivos = "/html/body/section[3]/div/div/div[1]/div[1]/div/div"
+    cssSelector_Elementos = "div.col-md-8.pt-md-4.px-0"
+    cssSelector_Elementos2 = "div.col-md-7.pt-md-4.px-0"
+    xPath_Frismex = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Abrasivos = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_JC = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_MG = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Prov_Aceites_Lub = "/html/body/section[3]/div/div/div[1]/div[2]/div/div"
+    xPath_Adibaja = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Aceites_Lub = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Chevrolet_Tijuana = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Lubricantes_Akron = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Prov_Aceros_Met = "/html/body/section[3]/div/div/div[1]/div[3]/div/div"
+    xPath_Airpipe = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Aceros_Met = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Buy_Metals = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_CD_Metales = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Prov_Aire_Refri = "/html/body/section[3]/div/div/div[1]/div[4]/div/div"
+    xPath_Aislantes = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Aire_Refri = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_AQS_Ind = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Aro_Construcciones = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Art_Promocionales = "/html/body/section[3]/div/div/div[1]/div[5]/div/div"
+    xPath_Arma_Promo = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Art_Promocionales = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Conceptos_Graf = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Malka_Impre = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Asesoria_Cons = "/html/body/section[3]/div/div/div[1]/div[6]/div/div"
+    xPath_Adalid = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Asesoria_Cons = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Banuelos_Salazar = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Conadin = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Automatizacion = "/html/body/section[3]/div/div/div[1]/div[7]/div/div"
+    xPath_Advamex = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Automatizacion = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Auto_Zen = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Electrok = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Baleros = "/html/body/section[3]/div/div/div[1]/div[8]/div/div"
+    xPath_Baleros_Refac_Tijuana = "/html/body/section[4]/div[2]/div/div[1]/div"
+    xPath_Bandas_Ind = "/html/body/section[3]/div/div/div[1]/div[9]/div/div"
+    xPath_Bandas_Refac_Tijuana = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Basculas = "/html/body/section[3]/div/div/div[1]/div[10]/div/div"
+    xPath_Sipcons = "/html/body/section[4]/div[2]/div/div[1]/div"
+    xPath_Cables_Arneses = "/html/body/section[3]/div/div/div[1]/div[11]/div/div"
+    xPath_Viakon = "/html/body/section[4]/div[2]/div/div[1]"
+    xPath_Calibracion = "/html/body/section[3]/div/div/div[1]/div[12]/div/div"
+    xPath_Arrega_Ind = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Calibracion = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Exis_Soluciones = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Hexagon = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Calzado_Seguridad = "/html/body/section[3]/div/div/div[1]/div[13]/div/div"
+    xPath_CC_Inter = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Calzado_Seguridad = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_CE_HP = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Crisosa = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+    xPath_Capacitacion = "/html/body/section[3]/div/div/div[1]/div[14]/div/div"
+    xPath_Alfa_K9 = "/html/body/section[4]/div[2]/div/div[1]/div[1]"
+    xPath_Boton_Capacitacion = "/html/body/section[3]/div/div/div/p/a[2]"
+    xPath_Alfa_Primeros_Auxilios = "/html/body/section[4]/div[2]/div/div[1]/div[2]"
+    xPath_Avancer = "/html/body/section[4]/div[2]/div/div[1]/div[3]"
+
+
+
+    
+
+    
+
+    
+
+
+
+   
+
